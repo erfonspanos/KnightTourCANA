@@ -13,8 +13,7 @@ public class SubsetSum {
        
         for (int i = 0; i < tamanho; i++) {
             System.out.println("Elemento "+ (i+1) +": ");
-            int valor = sc.nextInt();
-            myArray[i] = valor;
+            myArray[i] = sc.nextInt();
         }
 
         sc.close();
